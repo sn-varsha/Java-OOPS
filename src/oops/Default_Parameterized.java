@@ -13,6 +13,7 @@ class Human3{
 		this.age = age;
 		this.name = name;
 	}
+
 	public int getAge() {
 		return age;
 	}

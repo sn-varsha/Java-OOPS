@@ -38,4 +38,3 @@ public class Default_Parameterized {
 		System.out.println(obj1.getAge()+" : "+ obj1.getName());
 	}
 }
-

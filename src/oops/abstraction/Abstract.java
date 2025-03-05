@@ -1,4 +1,4 @@
-package oopsabstract;
+package oops.abstraction;
 
 abstract class Car{
 	public abstract void drive();

@@ -1,13 +1,16 @@
 package oops.Exception;
 
 //import java.io.BufferedReader;
-import java.io.IOException;
+//import java.io.IOException;
 //import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class BufferedReader_Scanner {
-
-	public static void main(String[] args) throws IOException {
+	
+//  if bf is used then we have to mention throws IOException
+//  public static void main(String[] args) throws IOException
+	
+	public static void main(String[] args) {
 		System.out.println("Enter a number");
 		
 //		InputStreamReader in = new InputStreamReader(System.in);

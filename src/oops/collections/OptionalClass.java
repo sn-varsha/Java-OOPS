@@ -10,18 +10,18 @@ public class OptionalClass {
 //		List<String> names = Arrays.asList("Navin", "Laxmi", "Kiran", "John");
 		List<String> names = Arrays.asList("Navin", "Lakshmi", "Kiran", "John");
 		
-//		Optional<String> name= names.stream()
-//				.filter(str -> str.contains("x"))
-//				.findFirst();
-		
-		String name= names.stream()
+		Optional<String> name= names.stream()
 				.filter(str -> str.contains("x"))
-				.findFirst()
-				.orElse("not found");
+				.findFirst();
+		
+//		String name= names.stream()
+//				.filter(str -> str.contains("x"))
+//				.findFirst()
+//				.orElse("not found");
 		
 //		System.out.println(name.get());
-//		System.out.println(name.orElse("Not Found"));
-		System.out.println(name);
+		System.out.println(name.orElse("Not Found"));
+//		System.out.println(name);
 		
 	}
 
